@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(63, 68, 66);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.Formulario{
+  background-color:rgb(216, 27, 21);
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.Entrada{
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btnEntrada{
+  width: 150px;
+  height: 30px;
+  background-color:#fff;
+  border-radius: 10px;
+}
+
+h1{
+  color: rgb(216, 27, 21);
+}
+.item{
+  background-color: aqua;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.noEmpacado{
+  color: red;
+  font-size: 12px;
+  display: inline;
+  margin-left: 10px;
+}
