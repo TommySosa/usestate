@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import BasicAlert from './components/BasicAlert';
 import BasicButton from './components/BasicButton';
+import CountWithHooks from './components/CountWithHooks';
 import ListaEquipaje from './components/ListaEquipaje';
 //import { PrimerComponente } from './components/PrimerComponente';
 
@@ -15,7 +17,10 @@ function App() {
         <PrimerComponente titulo={"Tercer componente"} nombre={"Ian Cano"}/> */}
         {/* <BasicButton></BasicButton>
         <BasicAlert></BasicAlert> */}
-        <ListaEquipaje ></ListaEquipaje>
+        {/* <ListaEquipaje ></ListaEquipaje> */}
+        <CountWithHooks></CountWithHooks>
+        <CountWithHooks></CountWithHooks>
+      
         </>
       </div>
     
